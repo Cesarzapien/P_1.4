@@ -1,0 +1,69 @@
+body {
+  background-color: #eef1f5;
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main.container {
+  flex: 1;
+}
+
+/* Estilos del Header y Footer */
+.site-header, .site-footer {
+  background-color: #ffffff;
+  color: #34495e;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-bottom: 1px solid #dce1e6;
+}
+
+.site-footer {
+  border-top: 1px solid #dce1e6;
+  border-bottom: none;
+}
+
+/* Contenedor del Logo */
+.logo-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 2rem;
+  margin-top: 2rem;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.logo-container img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 1.5rem;
+}
+
+.logo-container h2 {
+  font-weight: bold;
+  color: #34495e;
+}
+
+/* Estilos del Formulario de Búsqueda */
+.search-form input {
+  border-radius: 50px;
+  border: 1px solid #dce1e6;
+  padding: 10px 20px;
+}
+
+.search-form .btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+/* Estilo para el carrusel de sugerencias */
+.suggestion-text {
+  color: #7f8c8d;
+  min-height: 24px; /* Evita que el layout salte al cambiar el texto */
+  font-style: italic;
+}
